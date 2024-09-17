@@ -1,0 +1,16 @@
+name = ["amit", "harsh", "rajat"]
+print("before= ", name)
+name.append("roop")
+print("After= ",name)
+name.insert(2,"jain")
+print("after insert= ",name)
+name.remove("rajat")
+print(name)
+name.pop(0)
+print(name)
+name.sort(reverse=True)
+print(name)
+name.sort()
+print(name)
+for n in name:
+    print(n)
