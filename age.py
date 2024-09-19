@@ -1,6 +1,5 @@
-salary = 356765
-salary = float(salary)
-print(type(salary))
-print(salary)
-age = input("my age is=")
-print(age)
+
+currentyear=int(input("Enetr your current= "))
+bornyear=int(input("Enetr your born Year= "))
+age=currentyear-bornyear
+print("Age= ",age)
